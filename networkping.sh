@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ $1 == "" ]
+if [ -z "$1" ]
 then
   echo "./networkping.sh NETWORK"
   echo "./networkping.sh 192.198.1"
